@@ -1,0 +1,37 @@
+
+### GET wilders
+GET https://http-practice.herokuapp.com/wilders
+
+### GET wildersPageLanguage
+GET https://http-practice.herokuapp.com/wilders?language=Java&page=3
+
+### POST urlencoded
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/x-www-form-urlencoded
+
+name=Syr%20Simeon&language=PHP
+
+
+
+### POST json
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/json
+
+{
+  "name": "Harry Tempory",
+  "language": "JavaScript"
+}
+
+
+### GET id
+GET https://http-practice.herokuapp.com/wilders/1646441
+
+### PUT urlencoder
+PUT https://http-practice.herokuapp.com/wilders/1646439
+Content-Type: application/x-www-form-urlencoded
+
+name=Syr%20Simeon&language=JavaScript
+
+### DELETE id
+DELETE https://http-practice.herokuapp.com/wilders/1646441
+
